@@ -3,7 +3,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         Calendar calendar = Calendar.getInstance();
-        calendar.set(2028, Calendar.DECEMBER, 1);  // Month is 0-based
+        calendar.set(2028, Calendar.DECEMBER, 1);
         Date expireDate = calendar.getTime();
         Product milk = new Product("Milk", 10, 5,15,expireDate);
         Product tv = new Product("TV", 6000, 2,5000);

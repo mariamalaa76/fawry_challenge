@@ -1,11 +1,11 @@
 import java.util.Date;
 
 public class Product {
-    String product_name;
-    float price;
-    int product_quantity;
-    float weight;
-    Date product_expire_date = new Date();
+    private String product_name;
+    private float price;
+    private int product_quantity;
+    private float weight;
+    private Date product_expire_date = new Date();
 
     public Product(String productName, float price, int quantity,float weight, Date expireDate) {
         this.product_name = productName;
