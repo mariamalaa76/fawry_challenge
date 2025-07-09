@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Cart {
@@ -19,6 +20,7 @@ public class Cart {
             System.out.println("Not enough stock for product: " + product.getProduct_name());
             return false;
         }
+
         items.add(new CartItem(product, quantity));
         product.reduceQuantity(quantity);
         System.out.println("Added " + quantity + " of " + product.getProduct_name()+ " to cart.");
