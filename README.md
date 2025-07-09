@@ -1,1 +1,2 @@
-src/buy_product.png
+![Receipt Screenshot](src/buy_product.png)
+
